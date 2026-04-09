@@ -3,7 +3,7 @@ import logging
 
 # FOR CLIENT
 class ClientConfig:
-    SERVER_URI = "ws://localhost:8001"
+    SERVER_URI = "ws://localhost:8080"
     CONSOLE_LOG_LEVEL = logging.WARNING
     FILE_LOG_LEVEL = logging.INFO
 
@@ -11,4 +11,4 @@ class ClientConfig:
 # FOR SERVER
 class ServerConfig:
     HOST = ""
-    PORT = 8001
+    PORT = 8080
